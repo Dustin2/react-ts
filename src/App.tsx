@@ -1,12 +1,18 @@
 //import { Basictypes } from "../src/typescript/basictypes";
+// import { Counter } from "./componets/Counter";
+// import { Functions } from "./typescript/Functions";
+// import { LiteralObjects } from "./typescript/LiteralObjects";
 
-import { LiteralObjects } from "./typescript/LiteralObjects";
+import { CounterHook } from "./componets/CounterHook";
 
 function App() {
   return (
     <div>
       {/* <Basictypes /> */}
-      <LiteralObjects />
+      {/* <LiteralObjects /> */}
+      {/* <Functions /> */}
+      {/* <Counter /> */}
+      <CounterHook />
     </div>
   );
 }
