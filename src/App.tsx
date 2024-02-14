@@ -3,7 +3,9 @@
 // import { Functions } from "./typescript/Functions";
 // import { LiteralObjects } from "./typescript/LiteralObjects";
 
-import { Users } from "./componets/Users";
+import { Forms } from "./componets/Forms";
+
+// import { Users } from "./componets/Users";
 
 // import { Login } from "./componets/Login";
 
@@ -20,7 +22,9 @@ function App() {
       {/* <Login /> */}
       <>
         <h1>react ts</h1>
-        <Users />
+        <hr />
+        {/* <Users /> */}
+        <Forms />
       </>
     </div>
   );
